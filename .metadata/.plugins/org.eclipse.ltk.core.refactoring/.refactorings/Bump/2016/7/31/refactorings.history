@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bump/WebContent/javascripts/bump/eventHandlers/navigation.js&apos; to &apos;navigationHandler.js&apos;" description="Rename resource &apos;navigation.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/javascripts/bump/eventHandlers/navigation.js" name="navigationHandler.js" stamp="1469432692393" updateReferences="true"/>
+</session>

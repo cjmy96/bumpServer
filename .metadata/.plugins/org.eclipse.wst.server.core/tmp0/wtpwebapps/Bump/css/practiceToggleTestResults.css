@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.parid-id-invalid-messasge {
+	display: none;
+}
+
+.enter-results-contents .form-container {
+	display: none;
+}
+
+.enter-results-contents {
+	display:none;
+}

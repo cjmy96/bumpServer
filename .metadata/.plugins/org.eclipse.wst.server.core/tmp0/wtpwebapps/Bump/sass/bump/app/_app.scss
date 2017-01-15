@@ -1,0 +1,72 @@
+.content-container {
+	text-align: center;
+}
+#interface {
+	height: 100vh;
+	.interface {
+		display: inline-block;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+	h1.headline-large {
+		font-size: 3rem;	
+		margin-bottom: 2rem;
+		font-family: montserrat;
+		border-bottom: 1px dashed #d6d6d6;
+	}
+	p {
+		padding: 1rem 0rem;
+	}
+}
+
+.form-container {
+	width: 30rem;
+	margin: auto;
+	.interface-form {
+		padding-bottom: 1rem;
+	}
+	table, td, tr, th {
+		border: 1px solid grey;
+		vertical-align: middle;
+	}	
+	table {
+		width: 100%;
+		table-layout: fixed;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		tr {
+			height: 2rem;
+		}
+		th {
+			font-weight: bold;
+		}
+		td#paris-id {
+			font-size: 0.75rem;
+		}
+	}
+	input[type=checkbox] {
+		 -ms-transform: scale(1.5); /* IE */
+		 -moz-transform: scale(1.5); /* FF */
+		 -webkit-transform: scale(1.5); /* Safari and Chrome */
+		 -o-transform: scale(1.5); /* Opera */
+	}
+}
+
+
+
+
+.actions {
+	position: absolute;
+	bottom: 0px;
+	padding-left: 2rem;
+	div {
+		display: inline-block;
+		padding-bottom: 2rem;
+	}
+	span {
+		font-size: 1rem;
+		padding: 0rem 1rem;
+	}
+}

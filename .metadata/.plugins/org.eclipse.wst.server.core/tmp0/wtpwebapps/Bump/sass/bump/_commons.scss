@@ -1,0 +1,32 @@
+html * {
+	font-family: lato;
+}
+
+html, body {
+	height: 100%;
+}
+
+.input-container {
+	margin: auto;
+	position: relative;
+	width: 30rem;
+	img {
+		width: 1.5rem;
+		height: 1.5rem;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+
+input[type=text], input[type=password] {
+	outline: none;
+	background: transparent;
+	margin-bottom: 1rem;
+	border: none;
+	border-bottom: 1px solid #C9C9C9;
+	font-size: 1.2rem;
+	height: 2rem;
+	width: 28rem;
+	padding-left: 2rem;
+}
